@@ -73,7 +73,17 @@ a:hover, a:focus {
 	z-index: 10000;
 }
 
-.no-js .overlay, 
+.overlay h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	font-weight: 700;
+	margin: 0 auto;
+	line-height: 2;
+	position: relative;
+	text-transform: none;
+}
+
+.no-js .overlay,
 .overlay.hide {
 	-webkit-transition: opacity 0.3s, visibility 0.3s;
 	transition: opacity 0.3s, visibility 0.3s;
