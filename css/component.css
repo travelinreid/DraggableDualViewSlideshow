@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 
-html, 
+html,
 body,
 .js .container,
 .js .dragslider,
@@ -59,6 +59,15 @@ html.js,
 	padding-top: 0.2em;
 }
 
+.dragslider h2 span.sponsor {
+	display: block;
+	font-size: 15%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	padding-top: 2em;
+	text-transform: uppercase;
+}
+
 /* Switch button */
 button.slider-switch {
 	font-size: 0;
@@ -70,7 +79,7 @@ button.slider-switch {
 	border: none;
 	background: url(../img/switchmin.svg) no-repeat center center;
 	background-size: 90%;
-	float: right;
+	float: left;
 	outline: none;
 	overflow: hidden;
 	opacity: 0.7;
@@ -143,7 +152,7 @@ button.slider-switch:hover {
 	background: #567076;
 	font-size: 16px;
 	white-space: normal;
-	cursor: -webkit-grab; 
+	cursor: -webkit-grab;
 	cursor: -moz-grab;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -161,7 +170,7 @@ button.slider-switch:hover {
 }
 
 .img-dragger .slide:active {
-	cursor: -webkit-grabbing; 
+	cursor: -webkit-grabbing;
 	cursor: -moz-grabbing;
 }
 
